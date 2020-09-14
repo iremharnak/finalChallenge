@@ -1,0 +1,155 @@
+/* General rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Typography */
+.nav__list {
+  list-style: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 5.625rem;
+  color: #fff;
+}
+.hero p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.hero a {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 1.875;
+  color: #a59678;
+}
+.before-Primary p,
+.sidebar p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+}
+.before-Primary {
+  background-color: #f1f1f1;
+}
+
+.primary-content h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 2.25rem;
+  color: #a59678;
+}
+.primary-content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+}
+.sidebar p {
+  color: #fff;;
+}
+footer h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+}
+footer h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 1.3125rem;
+  color: #a59678;
+}
+footer li, 
+footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Layout */
+span {
+  color: #a59678;
+}
+header {
+  background-color: #2e323f;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+.hero {
+  background-color: #3b4050;
+  color
+}
+.cart {
+  background-color: #3b4050;
+  
+}
+footer {
+  background-color: #3b4050;
+}
+
+/* NavBar */
+.nav {
+  width: 100%;
+}
+.nav-toggle {
+  cursor: pointer;
+  border: 0;
+  width: 3em;
+  height: 3em;
+  padding: 0em;
+  border-radius: 50%;
+  background: #2e323f;
+  color: white;
+  transition: opacity 250ms ease;
+
+  position: absolute;
+  left: 0;
+}
+.nav-toggle:focus,
+.nav-toggle:hover {
+  opacity: 0.75;
+}
+
+.hamburger {
+  width: 50%;
+  position: relative;
+}
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  margin: 0 auto;
+  height:3px;
+  background: white;
+}
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  width: 100%;
+}
+.hamburger::before {
+  transform: translateY(-6px);
+}
+.hamburger::after {
+  transform:translateY(3px);
+}
