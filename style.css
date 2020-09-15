@@ -174,7 +174,7 @@ header {
   text-align: center;
 }
 .container {
-  width: 80%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -193,7 +193,6 @@ header {
 }
 .before-Primary {
   background-color: #f1f1f1;
-  padding: 1em;
 }
 .cart {
   background-color: #3b4050;
