@@ -20,14 +20,14 @@
         <button class="nav-toggle" aria-label="open navigation">
           <span class="hamburger"></span>
         </button>
-        <a href="#" class="logo">
+        <a class="logo" href="#">
           <img src="img/logo.svg" alt="conquering responsive layouts" />
         </a>
         <nav class="nav">
           <ul class="nav__list nav__list--primary">
-            <li class="nav__item">Home</li>
-            <li class="nav__item">About</li>
-            <li class="nav__item">Contact</li>
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
           </ul>
           <ul class="nav__list nav__list--secondary">
             <li class="nav__item"><a href="#" class="nav__link">Sign in</a></li>
@@ -79,61 +79,63 @@
           </div>
         </div>
       </section>
-      <section class="primary-content">
-        <div class="container">
-          <h2>It doesn't have to be so hard</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius,
-            ipsam deserunt aspernatur voluptatum est doloribus quia iusto nihil
-            ipsum non obcaecati sed repudiandae corrupti incidunt aliquam soluta
-            repellendus quae.
-          </p>
-
-          <img src="img/screen-image.jpg" alt="wireframes of apps" />
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
-            rem eaque cupiditate. Ullam pariatur quaerat dolore consectetur est.
-            Nulla consectetur sed eos optio illum cupiditate quisquam
-            perferendis sint praesentium nisi?
-          </p>
+      <section class="main container row">
+        <div class="primary-content">
+          <div class="container">
+            <h2>It doesn't have to be so hard</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius,
+              ipsam deserunt aspernatur voluptatum est doloribus quia iusto nihil
+              ipsum non obcaecati sed repudiandae corrupti incidunt aliquam soluta
+              repellendus quae.
+            </p>
+  
+            <img src="img/screen-image.jpg" alt="wireframes of apps" />
+  
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+              rem eaque cupiditate. Ullam pariatur quaerat dolore consectetur est.
+              Nulla consectetur sed eos optio illum cupiditate quisquam
+              perferendis sint praesentium nisi?
+            </p>
+          </div>
         </div>
+        <aside class="sidebar">
+          <div class="container">
+            <div class="cart">
+              <h3>Break it down</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fuga
+                placeat ut aut, atque ipsum reiciendis eius perferendis, sequi
+                facere ea recusandae voluptas aliquam molestiae ipsa eum nobis
+                mollitia accusamus?
+              </p>
+            </div>
+            <div class="cart">
+              <h3>Work your way up</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fuga
+                placeat ut aut, atque ipsum reiciendis eius perferendis, sequi
+                facere ea recusandae voluptas aliquam molestiae ipsa eum nobis
+                mollitia accusamus?
+              </p>
+            </div>
+            <div class="cart">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fuga
+                placeat ut aut, atque ipsum reiciendis eius perferendis, sequi
+                facere ea recusandae voluptas aliquam molestiae ipsa eum nobis
+                mollitia accusamus?
+              </p>
+            </div>
+          </div>
+        </aside>
       </section>
-      <aside class="sidebar">
-        <div class="container">
-          <div class="cart">
-            <h3>Break it down</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fuga
-              placeat ut aut, atque ipsum reiciendis eius perferendis, sequi
-              facere ea recusandae voluptas aliquam molestiae ipsa eum nobis
-              mollitia accusamus?
-            </p>
-          </div>
-          <div class="cart">
-            <h3>Work your way up</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fuga
-              placeat ut aut, atque ipsum reiciendis eius perferendis, sequi
-              facere ea recusandae voluptas aliquam molestiae ipsa eum nobis
-              mollitia accusamus?
-            </p>
-          </div>
-          <div class="cart">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fuga
-              placeat ut aut, atque ipsum reiciendis eius perferendis, sequi
-              facere ea recusandae voluptas aliquam molestiae ipsa eum nobis
-              mollitia accusamus?
-            </p>
-          </div>
-        </div>
-      </aside>
     </main>
     <footer>
       <section>
         <h2>Just scratching the surface</h2>
-        <div class="container">
+        <div class="container row">
           <h5>About our company</h5>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni quam
