@@ -290,4 +290,7 @@ footer {
     display: flex;
     flex-direction: row;
   }
+  .snippets {
+    text-align: center;
+  }
 }
