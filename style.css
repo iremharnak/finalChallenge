@@ -30,12 +30,12 @@ ul {
 
 h1 {
   font-family: "Oswald", sans-serif;
-  font-size: 5.625rem;
+  font-size: 2.5rem;
   color: #fff;
 }
 .hero p {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fff;
 }
 .hero a {
@@ -114,7 +114,7 @@ footer p {
   visibility: hidden;
   height: 0;
   position: absolute;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 .nav--visible {
   visibility: visible;
@@ -173,8 +173,9 @@ header {
   padding: 1em;
   text-align: center;
 }
+
 .container {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -183,6 +184,7 @@ header {
   background-color: #3b4050;
   padding: 1em;
 }
+
 .btn {
   display: inline-block;
   text-decoration: none;
@@ -190,27 +192,84 @@ header {
   background: #a59678;
   padding: 0.25em 1.5em;
   border-radius: 100px;
+  margin: 1em 0;
+}
+.primary-content {
+  padding: 1em;
 }
 .before-Primary {
   background-color: #f1f1f1;
+  padding: 1em;
 }
 .cart {
   background-color: #3b4050;
-  margin: 1em;
+  margin-bottom: 1em;
   padding: 1em;
   text-align: center;
 }
+.last-title {
+  margin: 0 auto;
+  width: 90%;
+}
 footer {
-  background-color: #3b4050;
+  background-color: #2e323f;
   padding: 1em;
+}
+.footer__list {
+  padding: 0;
 }
 
 /* Media Queries */
 
 @media (min-width: 700px) {
+  .nav-toggle {
+    display: none;
+  }
   .nav {
     visibility: visible;
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
     height: auto;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav__list {
+    display: flex;
+    margin: 0;
+  }
+  .nav__item {
+    margin: 0 0 0 1.5em; 
+  }
+  .hero__title {
+    width: 55%;
+  }
+  .hero__blabla {
+    width: 45%;
+    margin-top: 8em;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .col  + .col {
+    margin-left: 2em;
+  }
+  .primary-content {
+    display: flex;
+   
+ 
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 5.625rem;
+  }
+  .hero p {
+    font-size: 1.5rem;
   }
 }
